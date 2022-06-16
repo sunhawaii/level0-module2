@@ -5,7 +5,33 @@ if __name__ == '__main__':
     window = Tk()
     window.withdraw()
 
-    random_number = random.randint(1, 5)
+    for i in range (10):
+
+        random_number = random.randint(1, 5)
+
+        if random_number == 1:
+            messagebox.showinfo(title='none', message="You look nice today. ")
+
+        if random_number == 2:
+            messagebox.showinfo(title='none', message="You are a great person. ")
+
+        if random_number == 3:
+            messagebox.showinfo(title='none', message="You are really funny. ")
+
+        if random_number == 4:
+            messagebox.showinfo(title='none', message="You have nice clothes. ")
+
+        if random_number == 5:
+            messagebox.showinfo(title='none', message="You are a cheerful person. ")
+
+
+
+
+
+
+
+
+
 
     print(random_number)
 
