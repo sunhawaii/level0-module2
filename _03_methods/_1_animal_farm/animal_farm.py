@@ -11,13 +11,18 @@ def animals():
     window = Tk()
     window.withdraw()
 
+
+    for i in range(100000):
+        animal=simpledialog.askstring(None, "What animal do you want to see and hear?")
+
     # TODO 1. Ask the user which animal they want, then see and
     #  hear the animal they chose using one of the methods below.
 
     # TODO 2. Make it so that the user can keep entering new animals.
 
     # TODO 3. If the user enters 'exit', stop the program
-
+ if animal == exit:
+    window.withdraw()
 
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
