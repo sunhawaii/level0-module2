@@ -15,7 +15,9 @@ if __name__ == '__main__':
     number5 = random.randint(1, 9)
     number6 = random.randint(1, 9)
 
-    messagebox.showinfo(None, number1, number2, number3, number4, number5, number6)
+    lottery_numbers=str(number1)+str(number2)+str(number3)+str(number4)+str(number5)+str(number6)
+
+    messagebox.showinfo(None, lottery_numbers)
 
     # TODO 2) Display the selected numbers to the user in a pop-up
 
