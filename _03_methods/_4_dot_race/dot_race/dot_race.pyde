@@ -41,7 +41,7 @@ def draw():
 
 
 sound_played = False
-def play_sound():
+def play_sound(): 
 
     if can_play_sounds:
         if sound_played:
